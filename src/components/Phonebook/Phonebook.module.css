@@ -20,3 +20,8 @@
 .button {
     margin-left: 20px;
 }
+
+.button:hover,
+.button:focus {
+    background-color: blue;
+}

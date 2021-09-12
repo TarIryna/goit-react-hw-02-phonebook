@@ -20,7 +20,8 @@ class Form extends Component {
     onChangeInput = e => {
         const { name, value } = e.currentTarget;
         this.setState({
-            [name]: value });
+            [name]: value,
+        });
     };
 
     reset = () => {
@@ -35,16 +36,16 @@ class Form extends Component {
             div className = { s.labels } >
             <
             label className = { s.name } >
-            Name <
+            Name { ' ' } <
             input className = { s.input }
             type = "text"
             name = "name"
             value = { this.state.name }
             onChange = { this.onChangeInput }
-            /> <
-            /label> <
+            />{' '} <
+            /label>{' '} <
             label className = { s.name } >
-            Number <
+            Number { ' ' } <
             input className = { s.input }
             type = "tel"
             name = "number"
@@ -55,13 +56,13 @@ class Form extends Component {
             required /
             >
             <
-            /label> <
-            /div> <
+            /label>{' '} <
+            /div>{' '} <
             button className = { s.button }
             type = "submit"
             key = "submitBtn" >
-            Add contact <
-            /button> <
+            Add contact { ' ' } <
+            /button>{' '} <
             /form>
         );
     }

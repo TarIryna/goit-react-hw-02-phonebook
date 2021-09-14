@@ -1,5 +1,11 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "editor.formatOnPaste": true
+  "editor.formatOnPaste": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+  }
 }

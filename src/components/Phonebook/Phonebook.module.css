@@ -1,28 +1,28 @@
 .name {
-    display: flex;
-    width: 300px;
-    justify-content: space-between;
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
 }
 
 .contactList {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    list-style: none;
-    color: black;
-    width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  list-style: none;
+  color: black;
+  width: 300px;
 }
 
 .number {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .button {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .button:hover,
 .button:focus {
-    background-color: blue;
-    color: white;
+  background-color: blue;
+  color: white;
 }
